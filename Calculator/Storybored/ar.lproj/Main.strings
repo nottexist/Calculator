@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "الإجمالي"; ObjectID = "2gs-up-S0I"; */
+"2gs-up-S0I.text" = "الإجمالي";
+
+/* Class = "UILabel"; text = "ضريبة القيمة المضافة (15%)"; ObjectID = "7xv-YH-BIQ"; */
+"7xv-YH-BIQ.text" = "ضريبة القيمة المضافة (15%)";
+
+/* Class = "UIViewController"; title = "الحاسبة"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "الحاسبة";
+
+/* Class = "UILabel"; text = "المنتج"; ObjectID = "Bai-Kj-SEY"; */
+"Bai-Kj-SEY.text" = "المنتج";
+
+/* Class = "UILabel"; text = "الكمية"; ObjectID = "C2c-3W-Arg"; */
+"C2c-3W-Arg.text" = "الكمية";
+
+/* Class = "UITextField"; placeholder = "الكمية"; ObjectID = "CRi-w7-3gb"; */
+"CRi-w7-3gb.placeholder" = "الكمية";
+
+/* Class = "UILabel"; text = "510"; ObjectID = "Dgd-gx-Wd9"; */
+"Dgd-gx-Wd9.text" = "510";
+
+/* Class = "UITextField"; placeholder = "اسم المنتج"; ObjectID = "JAU-HW-Cnt"; */
+"JAU-HW-Cnt.placeholder" = "اسم المنتج";
+
+/* Class = "UINavigationItem"; title = "الحاسبة"; ObjectID = "Kis-Nf-Wz9"; */
+"Kis-Nf-Wz9.title" = "الحاسبة";
+
+/* Class = "UILabel"; text = "إجمالي"; ObjectID = "Owd-FP-ZEp"; */
+"Owd-FP-ZEp.text" = "إجمالي";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "RWK-8G-fqu"; */
+"RWK-8G-fqu.title" = "Item";
+
+/* Class = "UILabel"; text = "إضافة منتج جديد"; ObjectID = "Uim-gW-JQc"; */
+"Uim-gW-JQc.text" = "إضافة منتج جديد";
+
+/* Class = "UIButton"; configuration.title = "إضافة"; ObjectID = "cK9-6V-wyb"; */
+"cK9-6V-wyb.configuration.title" = "إضافة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cK9-6V-wyb"; */
+"cK9-6V-wyb.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "34.5"; ObjectID = "qaF-VL-qdC"; */
+"qaF-VL-qdC.text" = "34.5";
+
+/* Class = "UITextField"; placeholder = "سعر المنتج"; ObjectID = "tl7-xj-6B3"; */
+"tl7-xj-6B3.placeholder" = "سعر المنتج";
+
+/* Class = "UILabel"; text = "544.8"; ObjectID = "wAy-TB-b6I"; */
+"wAy-TB-b6I.text" = "544.8";

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="alfont_com_AlFont_com_Bahij_TheSansArabic-Bold.ttf">
+            <string>BahijTheSansArabicBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="176" id="KGk-i7-Jjw" customClass="ProductTableViewCell" customModule="Calculator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="399" height="176"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="399" height="176"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7sd-sf-t9c">
+                        <rect key="frame" x="20" y="9" width="359" height="158"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0xg-AN-06k">
+                                <rect key="frame" x="0.0" y="0.0" width="359" height="158"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="dai-cb-7Vs">
+                                        <rect key="frame" x="15" y="15" width="329" height="50"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3eK-GC-tJc">
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="180" id="8W6-hx-pTl"/>
+                                                    <constraint firstAttribute="height" constant="50" id="MgZ-1J-lDf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <action selector="txtQuantity:" destination="KGk-i7-Jjw" eventType="editingDidEnd" id="iy3-5A-64g"/>
+                                                </connections>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم المنتج" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydh-lB-FVO">
+                                                <rect key="frame" x="249" y="0.0" width="80" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="3rh-M7-MlT"/>
+                                                </constraints>
+                                                <directionalEdgeInsets key="directionalLayoutMargins" top="20" leading="20" bottom="20" trailing="20"/>
+                                                <fontDescription key="fontDescription" name="BahijTheSansArabicBold" family="Bahij TheSansArabic" pointSize="16"/>
+                                                <color key="textColor" name="22215B"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vJB-Q5-76o">
+                                        <rect key="frame" x="15" y="75" width="329" height="68"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="GIb-tU-uut">
+                                                <rect key="frame" x="0.0" y="0.0" width="175.66666666666666" height="68"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haS-RD-1lc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="62.666666666666664" height="68"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="icSub" title=" "/>
+                                                        <connections>
+                                                            <action selector="btnSub:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zdf-aU-XaP"/>
+                                                        </connections>
+                                                    </button>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ziF-eD-KqY">
+                                                        <rect key="frame" x="74.666666666666671" y="0.0" width="26.333333333333329" height="68"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="33" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cke-jU-lnG">
+                                                                <rect key="frame" x="0.0" y="0.0" width="15.333333333333334" height="68"/>
+                                                                <fontDescription key="fontDescription" name="BahijTheSansArabicBold" family="Bahij TheSansArabic" pointSize="16"/>
+                                                                <color key="textColor" name="22215B"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icShekel" translatesAutoresizingMaskIntoConstraints="NO" id="S48-U3-IWQ">
+                                                                <rect key="frame" x="20.333333333333329" y="0.0" width="6" height="68"/>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LeZ-c7-OYH">
+                                                        <rect key="frame" x="113.00000000000001" y="0.0" width="62.666666666666671" height="68"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" image="icAdd" title=" "/>
+                                                        <connections>
+                                                            <action selector="btnAdd:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rLT-iK-AId"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <directionalEdgeInsets key="directionalLayoutMargins" top="15" leading="15" bottom="15" trailing="15"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="FFFFFF"/>
+                        <constraints>
+                            <constraint firstItem="0xg-AN-06k" firstAttribute="top" secondItem="7sd-sf-t9c" secondAttribute="top" id="Rch-Nr-vEn"/>
+                            <constraint firstAttribute="trailing" secondItem="0xg-AN-06k" secondAttribute="trailing" id="XwQ-gF-eXs"/>
+                            <constraint firstItem="0xg-AN-06k" firstAttribute="leading" secondItem="7sd-sf-t9c" secondAttribute="leading" id="Yfb-OQ-icF"/>
+                            <constraint firstAttribute="bottom" secondItem="0xg-AN-06k" secondAttribute="bottom" id="pbo-00-7sl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="E5E5E5"/>
+                <constraints>
+                    <constraint firstItem="7sd-sf-t9c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="1ZZ-EA-PnJ"/>
+                    <constraint firstItem="7sd-sf-t9c" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="OMx-gb-i57"/>
+                    <constraint firstAttribute="bottom" secondItem="7sd-sf-t9c" secondAttribute="bottom" constant="9" id="PSh-KZ-ZsO"/>
+                    <constraint firstAttribute="trailing" secondItem="7sd-sf-t9c" secondAttribute="trailing" constant="20" id="oYb-rE-mfQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAdd" destination="LeZ-c7-OYH" id="tDc-lc-X6D"/>
+                <outlet property="btnSub" destination="haS-RD-1lc" id="1FZ-KU-IfY"/>
+                <outlet property="lblPrice" destination="cke-jU-lnG" id="pts-KZ-8Pu"/>
+                <outlet property="lblProductName" destination="Ydh-lB-FVO" id="PTZ-ng-Gun"/>
+                <outlet property="txtQuantity" destination="3eK-GC-tJc" id="0sD-Rq-31u"/>
+            </connections>
+            <point key="canvasLocation" x="6.8702290076335872" y="23.239436619718312"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icAdd" width="34" height="33"/>
+        <image name="icShekel" width="6" height="6"/>
+        <image name="icSub" width="34" height="33"/>
+        <namedColor name="22215B">
+            <color red="0.13300000131130219" green="0.1289999932050705" blue="0.35699999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="E5E5E5">
+            <color red="0.89800000190734863" green="0.89800000190734863" blue="0.89800000190734863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FFFFFF">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -9,21 +9,66 @@
 /* Begin PBXBuildFile section */
 		9235C8F32B935C7A00F3D135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C8F22B935C7A00F3D135 /* AppDelegate.swift */; };
 		9235C8F52B935C7A00F3D135 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C8F42B935C7A00F3D135 /* SceneDelegate.swift */; };
-		9235C8F72B935C7A00F3D135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C8F62B935C7A00F3D135 /* ViewController.swift */; };
+		9235C8F72B935C7A00F3D135 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C8F62B935C7A00F3D135 /* CalculatorViewController.swift */; };
 		9235C8FA2B935C7A00F3D135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9235C8F82B935C7A00F3D135 /* Main.storyboard */; };
 		9235C8FC2B935C7B00F3D135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9235C8FB2B935C7B00F3D135 /* Assets.xcassets */; };
 		9235C8FF2B935C7B00F3D135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9235C8FD2B935C7B00F3D135 /* LaunchScreen.storyboard */; };
+		9235C91C2B939EFC00F3D135 /* UITableViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C90E2B939EFC00F3D135 /* UITableViewEx.swift */; };
+		9235C91D2B939EFC00F3D135 /* UIStoryboredEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C90F2B939EFC00F3D135 /* UIStoryboredEx.swift */; };
+		9235C91E2B939EFC00F3D135 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9102B939EFC00F3D135 /* UIViewEx.swift */; };
+		9235C91F2B939EFC00F3D135 /* NSNumberEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9112B939EFC00F3D135 /* NSNumberEx.swift */; };
+		9235C9202B939EFC00F3D135 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9122B939EFC00F3D135 /* UIColorEx.swift */; };
+		9235C9212B939EFC00F3D135 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9132B939EFC00F3D135 /* UIViewControllerEx.swift */; };
+		9235C9222B939EFC00F3D135 /* UIResponderEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9142B939EFC00F3D135 /* UIResponderEx.swift */; };
+		9235C9232B939EFC00F3D135 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9152B939EFC00F3D135 /* UITextField.swift */; };
+		9235C9242B939EFC00F3D135 /* UITabBarEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9162B939EFC00F3D135 /* UITabBarEx.swift */; };
+		9235C9252B939EFC00F3D135 /* UICollectionViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9172B939EFC00F3D135 /* UICollectionViewEx.swift */; };
+		9235C9262B939EFC00F3D135 /* UIButtonEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9182B939EFC00F3D135 /* UIButtonEx.swift */; };
+		9235C9272B939EFC00F3D135 /* UIApplectionEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C9192B939EFC00F3D135 /* UIApplectionEx.swift */; };
+		9235C9282B939EFC00F3D135 /* UIStringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C91A2B939EFC00F3D135 /* UIStringEx.swift */; };
+		9235C9292B939EFC00F3D135 /* UIKitEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C91B2B939EFC00F3D135 /* UIKitEx.swift */; };
+		9235C92C2B93A0A300F3D135 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9235C92B2B93A0A300F3D135 /* MainNavigationViewController.swift */; };
+		92474A712B98DD44008E09B1 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92474A6F2B98DD44008E09B1 /* ProductTableViewCell.swift */; };
+		92474A722B98DD44008E09B1 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92474A702B98DD44008E09B1 /* ProductTableViewCell.xib */; };
+		92A0D7222B947CE400303358 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A0D7212B947CE400303358 /* AddProductViewController.swift */; };
+		92B0BE2F2B95FC28003DE0EF /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B0BE2E2B95FC28003DE0EF /* Products.swift */; };
+		92C3367B2B9CCDA300504F12 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92C3367D2B9CCDA300504F12 /* Localizable.strings */; };
+		92C336802B9CD4D100504F12 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C3367F2B9CD4D100504F12 /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9235C8EF2B935C7A00F3D135 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9235C8F22B935C7A00F3D135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9235C8F42B935C7A00F3D135 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9235C8F62B935C7A00F3D135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9235C8F62B935C7A00F3D135 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		9235C8F92B935C7A00F3D135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9235C8FB2B935C7B00F3D135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9235C8FE2B935C7B00F3D135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9235C9002B935C7B00F3D135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9235C90C2B939AB900F3D135 /* alfont_com_ArbFONTS-Bahij_TheSansArabic-Plain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alfont_com_ArbFONTS-Bahij_TheSansArabic-Plain.ttf"; sourceTree = "<group>"; };
+		9235C90E2B939EFC00F3D135 /* UITableViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewEx.swift; sourceTree = "<group>"; };
+		9235C90F2B939EFC00F3D135 /* UIStoryboredEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboredEx.swift; sourceTree = "<group>"; };
+		9235C9102B939EFC00F3D135 /* UIViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		9235C9112B939EFC00F3D135 /* NSNumberEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSNumberEx.swift; sourceTree = "<group>"; };
+		9235C9122B939EFC00F3D135 /* UIColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		9235C9132B939EFC00F3D135 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
+		9235C9142B939EFC00F3D135 /* UIResponderEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResponderEx.swift; sourceTree = "<group>"; };
+		9235C9152B939EFC00F3D135 /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		9235C9162B939EFC00F3D135 /* UITabBarEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITabBarEx.swift; sourceTree = "<group>"; };
+		9235C9172B939EFC00F3D135 /* UICollectionViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewEx.swift; sourceTree = "<group>"; };
+		9235C9182B939EFC00F3D135 /* UIButtonEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonEx.swift; sourceTree = "<group>"; };
+		9235C9192B939EFC00F3D135 /* UIApplectionEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplectionEx.swift; sourceTree = "<group>"; };
+		9235C91A2B939EFC00F3D135 /* UIStringEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStringEx.swift; sourceTree = "<group>"; };
+		9235C91B2B939EFC00F3D135 /* UIKitEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitEx.swift; sourceTree = "<group>"; };
+		9235C92B2B93A0A300F3D135 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		9235C93F2B93AE6000F3D135 /* alfont_com_AlFont_com_Bahij_TheSansArabic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alfont_com_AlFont_com_Bahij_TheSansArabic-Bold.ttf"; sourceTree = "<group>"; };
+		92474A6F2B98DD44008E09B1 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		92474A702B98DD44008E09B1 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		92A0D7212B947CE400303358 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		92B0BE2E2B95FC28003DE0EF /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		92C3367C2B9CCDA300504F12 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92C3367E2B9CCDA500504F12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92C3367F2B9CD4D100504F12 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +103,140 @@
 			children = (
 				9235C8F22B935C7A00F3D135 /* AppDelegate.swift */,
 				9235C8F42B935C7A00F3D135 /* SceneDelegate.swift */,
-				9235C8F62B935C7A00F3D135 /* ViewController.swift */,
-				9235C8F82B935C7A00F3D135 /* Main.storyboard */,
-				9235C8FB2B935C7B00F3D135 /* Assets.xcassets */,
-				9235C8FD2B935C7B00F3D135 /* LaunchScreen.storyboard */,
-				9235C9002B935C7B00F3D135 /* Info.plist */,
+				9235C9062B938E1100F3D135 /* Storybored */,
+				9235C9072B938E2200F3D135 /* ViewController */,
+				9235C92A2B939F0100F3D135 /* Utilis */,
+				9235C90B2B938EBB00F3D135 /* Model */,
+				9235C9092B938E9800F3D135 /* Supporting Files */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		9235C9062B938E1100F3D135 /* Storybored */ = {
+			isa = PBXGroup;
+			children = (
+				9235C8F82B935C7A00F3D135 /* Main.storyboard */,
+				9235C8FD2B935C7B00F3D135 /* LaunchScreen.storyboard */,
+			);
+			path = Storybored;
+			sourceTree = "<group>";
+		};
+		9235C9072B938E2200F3D135 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9235C9082B938E7B00F3D135 /* Xibs */,
+				9235C92B2B93A0A300F3D135 /* MainNavigationViewController.swift */,
+				92A0D71F2B947C9300303358 /* Calculator */,
+				92A0D7202B947CBD00303358 /* Add Product */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9235C9082B938E7B00F3D135 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				92474A6E2B98DD15008E09B1 /* New Group */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		9235C9092B938E9800F3D135 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9235C90A2B938EAF00F3D135 /* Fonts */,
+				9235C8FB2B935C7B00F3D135 /* Assets.xcassets */,
+				92C3367D2B9CCDA300504F12 /* Localizable.strings */,
+				9235C9002B935C7B00F3D135 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9235C90A2B938EAF00F3D135 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9235C93F2B93AE6000F3D135 /* alfont_com_AlFont_com_Bahij_TheSansArabic-Bold.ttf */,
+				9235C90C2B939AB900F3D135 /* alfont_com_ArbFONTS-Bahij_TheSansArabic-Plain.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9235C90B2B938EBB00F3D135 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92B0BE2D2B95FC0C003DE0EF /* Products */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9235C90D2B939EFC00F3D135 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9235C90E2B939EFC00F3D135 /* UITableViewEx.swift */,
+				9235C90F2B939EFC00F3D135 /* UIStoryboredEx.swift */,
+				9235C9102B939EFC00F3D135 /* UIViewEx.swift */,
+				9235C9112B939EFC00F3D135 /* NSNumberEx.swift */,
+				9235C9122B939EFC00F3D135 /* UIColorEx.swift */,
+				9235C9132B939EFC00F3D135 /* UIViewControllerEx.swift */,
+				9235C9142B939EFC00F3D135 /* UIResponderEx.swift */,
+				9235C9152B939EFC00F3D135 /* UITextField.swift */,
+				9235C9162B939EFC00F3D135 /* UITabBarEx.swift */,
+				9235C9172B939EFC00F3D135 /* UICollectionViewEx.swift */,
+				9235C9182B939EFC00F3D135 /* UIButtonEx.swift */,
+				9235C9192B939EFC00F3D135 /* UIApplectionEx.swift */,
+				9235C91A2B939EFC00F3D135 /* UIStringEx.swift */,
+				9235C91B2B939EFC00F3D135 /* UIKitEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9235C92A2B939F0100F3D135 /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				9235C90D2B939EFC00F3D135 /* Extensions */,
+				92C336812B9CD4D800504F12 /* Libs */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		92474A6E2B98DD15008E09B1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				92474A6F2B98DD44008E09B1 /* ProductTableViewCell.swift */,
+				92474A702B98DD44008E09B1 /* ProductTableViewCell.xib */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		92A0D71F2B947C9300303358 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				9235C8F62B935C7A00F3D135 /* CalculatorViewController.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		92A0D7202B947CBD00303358 /* Add Product */ = {
+			isa = PBXGroup;
+			children = (
+				92A0D7212B947CE400303358 /* AddProductViewController.swift */,
+			);
+			path = "Add Product";
+			sourceTree = "<group>";
+		};
+		92B0BE2D2B95FC0C003DE0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92B0BE2E2B95FC28003DE0EF /* Products.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		92C336812B9CD4D800504F12 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				92C3367F2B9CD4D100504F12 /* UserProfile.swift */,
+			);
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,11 +276,12 @@
 			};
 			buildConfigurationList = 9235C8EA2B935C7900F3D135 /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ar;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 9235C8E62B935C7900F3D135;
 			productRefGroup = 9235C8F02B935C7A00F3D135 /* Products */;
@@ -125,7 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C3367B2B9CCDA300504F12 /* Localizable.strings in Resources */,
 				9235C8FF2B935C7B00F3D135 /* LaunchScreen.storyboard in Resources */,
+				92474A722B98DD44008E09B1 /* ProductTableViewCell.xib in Resources */,
 				9235C8FC2B935C7B00F3D135 /* Assets.xcassets in Resources */,
 				9235C8FA2B935C7A00F3D135 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +313,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9235C8F72B935C7A00F3D135 /* ViewController.swift in Sources */,
+				9235C91F2B939EFC00F3D135 /* NSNumberEx.swift in Sources */,
+				92A0D7222B947CE400303358 /* AddProductViewController.swift in Sources */,
+				9235C92C2B93A0A300F3D135 /* MainNavigationViewController.swift in Sources */,
+				9235C9252B939EFC00F3D135 /* UICollectionViewEx.swift in Sources */,
+				9235C91C2B939EFC00F3D135 /* UITableViewEx.swift in Sources */,
+				9235C91D2B939EFC00F3D135 /* UIStoryboredEx.swift in Sources */,
+				92474A712B98DD44008E09B1 /* ProductTableViewCell.swift in Sources */,
+				9235C9232B939EFC00F3D135 /* UITextField.swift in Sources */,
+				9235C9292B939EFC00F3D135 /* UIKitEx.swift in Sources */,
+				9235C9212B939EFC00F3D135 /* UIViewControllerEx.swift in Sources */,
+				9235C8F72B935C7A00F3D135 /* CalculatorViewController.swift in Sources */,
+				9235C9242B939EFC00F3D135 /* UITabBarEx.swift in Sources */,
+				9235C9202B939EFC00F3D135 /* UIColorEx.swift in Sources */,
 				9235C8F32B935C7A00F3D135 /* AppDelegate.swift in Sources */,
+				9235C9262B939EFC00F3D135 /* UIButtonEx.swift in Sources */,
+				9235C9222B939EFC00F3D135 /* UIResponderEx.swift in Sources */,
+				92C336802B9CD4D100504F12 /* UserProfile.swift in Sources */,
 				9235C8F52B935C7A00F3D135 /* SceneDelegate.swift in Sources */,
+				9235C9282B939EFC00F3D135 /* UIStringEx.swift in Sources */,
+				9235C91E2B939EFC00F3D135 /* UIViewEx.swift in Sources */,
+				9235C9272B939EFC00F3D135 /* UIApplectionEx.swift in Sources */,
+				92B0BE2F2B95FC28003DE0EF /* Products.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +357,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		92C3367D2B9CCDA300504F12 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92C3367C2B9CCDA300504F12 /* ar */,
+				92C3367E2B9CCDA500504F12 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -170,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -216,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,7 +494,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 988B9VT687;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "Calculator/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,6 +507,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +525,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 988B9VT687;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = "Calculator/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,6 +538,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = IOS.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
