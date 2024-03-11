@@ -5,3 +5,10 @@
   Created by Huda M. A'abed on 09/03/2024.
   
 */
+
+"Product" = "المنتج" ;
+"Quantity" = "الكمية" ;
+"Total" = "إجمالي" ;
+"Sales Taxes(15%)" = "ضريبة القيمة المضافة(١٥٪)" ;
+"Calculator" = "الحاسبة" ;
+//"0.0" = "٠.٠"

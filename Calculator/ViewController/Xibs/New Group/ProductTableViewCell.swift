@@ -15,14 +15,16 @@ protocol onPriceUpdate: AnyObject {
 class ProductTableViewCell: UITableViewCell {
 
     @IBOutlet weak var lblProductName: UILabel!
-    
     @IBOutlet var productView: UIView!
     @IBOutlet weak var btnAdd: UIButton!
     @IBOutlet weak var btnSub: UIButton!
     @IBOutlet weak var lblPrice: UILabel!
     @IBOutlet weak var txtQuantity: UITextField!
+    @IBOutlet weak var lblLocalizableProductName: UILabel!
     
-   
+//    override func viewDidLoad() {
+//        //lblLocalizableProductName.text = NSLocalizedString("", comment: "")
+//    }
     weak var delegate: onPriceUpdate?
 //    var onPriceUpdate: ((Double) -> Void)?
         var object: Products?
@@ -46,7 +48,7 @@ class ProductTableViewCell: UITableViewCell {
                 quantityInt += 1
                 txtQuantity.text = "\(quantityInt)"
             let newPrice = calculatePrice(for: quantityInt)
-                //delegate?.totalPrice(price: newPrice)
+//                delegate?.totalPrice(price: newPrice)
         }
     }
     
@@ -57,7 +59,7 @@ class ProductTableViewCell: UITableViewCell {
         guard let quantity = txtQuantity.text else { return }
         let quantityInt = Int(quantity)
         let newPrice = calculatePrice(for: quantityInt ?? 0)
-            //delegate?.totalPrice(price: newPrice)
+//            delegate?.totalPrice(price: newPrice)
     }
     
     func calculatePrice(for quantity: Int) -> Double {
@@ -67,6 +69,7 @@ class ProductTableViewCell: UITableViewCell {
         var priceDouble = Double(price)
         let newPrice = priceDouble * Double(quantity)
             delegate?.totalPrice(price: newPrice)
+//        lblPrice.text = "\(newPrice)"
         return newPrice
     }
     

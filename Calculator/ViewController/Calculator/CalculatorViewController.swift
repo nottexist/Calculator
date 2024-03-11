@@ -16,6 +16,13 @@ class CalculatorViewController:
     @IBOutlet weak var lblTotal: UILabel!
     @IBOutlet weak var lblTotalWithTax: UILabel!
     @IBOutlet weak var lblTax: UILabel!
+    @IBOutlet weak var lblLocalizableQuantity: UILabel!
+    @IBOutlet weak var lblLocalizableProduct: UILabel!
+    @IBOutlet weak var lblLocalizableTotal: UILabel!
+    @IBOutlet weak var lblLocalizableTax: UILabel!
+    @IBOutlet weak var lblLocalizableTotalPlusTax: UILabel!
+    @IBOutlet weak var lblLocalizableTotalValue: UILabel!
+    
     
     var products: [Products] = []
     
@@ -32,7 +39,7 @@ class CalculatorViewController:
     }
     
     @IBAction func btnAddProduct(_ sender: Any) {
-        UserProfile.shared.setAppleLAnguageTo(lang: "en")
+        //UserProfile.shared.setAppleLAnguageTo(lang: "ar")
         let vc = AddProductViewController.instantiat()
             vc.delegate = self
 //        vc.productAdded? = { [weak self] productName, productPrice, productQuantity in
@@ -62,6 +69,13 @@ extension CalculatorViewController {
     }
     
     func localized(){
+        lblLocalizableProduct.text = NSLocalizedString("Product", comment: "")
+        lblLocalizableQuantity.text = NSLocalizedString("Quantity", comment: "")
+        self.title = NSLocalizedString("Calculator", comment: "")
+        lblLocalizableTotal.text = NSLocalizedString("Total", comment: "")
+        lblLocalizableTax.text = NSLocalizedString("Sales Taxes(15%)", comment: "")
+        lblLocalizableTotalPlusTax.text = NSLocalizedString("Total", comment: "")
+        //lblLocalizableTotalValue.text = NSLocalizedString("0.0", comment: "")
         
     }
     

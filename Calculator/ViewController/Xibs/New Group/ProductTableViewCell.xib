@@ -121,6 +121,7 @@
             <connections>
                 <outlet property="btnAdd" destination="LeZ-c7-OYH" id="tDc-lc-X6D"/>
                 <outlet property="btnSub" destination="haS-RD-1lc" id="1FZ-KU-IfY"/>
+                <outlet property="lblLocalizableProductName" destination="Ydh-lB-FVO" id="TIO-8S-rXr"/>
                 <outlet property="lblPrice" destination="cke-jU-lnG" id="pts-KZ-8Pu"/>
                 <outlet property="lblProductName" destination="Ydh-lB-FVO" id="PTZ-ng-Gun"/>
                 <outlet property="txtQuantity" destination="3eK-GC-tJc" id="0sD-Rq-31u"/>
